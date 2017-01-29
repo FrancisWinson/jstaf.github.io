@@ -1,6 +1,6 @@
-----
+---
 title: Setting up Linux for the office
-----
+---
 
 So, you want to use Linux on your computer at work. 
 I won't try to convince you to use it if you're not already convinced. 
