@@ -7,8 +7,7 @@ title: Resume
   
 
 * High level of fluency in multiple programming languages, including: R, Python, MATLAB, Java, SQL, and bash ([see portfolio](https://github.com/jstaf/)).
-* Demonstrated expertise in cloud computing and bioinformatics, utilizing custom scripts and algorithms to solve otherwise biologically and statistically intractable problems.
-* Wide-ranging molecular biology skillset, including but not limited to: PCR, RT-qPCR, RNA-Seq, cloning, agarose gel electrophoresis, flow cytometry, confocal microscopy, fine-scale dissections, yeast/bacterial cell culture, and traditional genetics.
+* Wide-ranging molecular biology skillset, including but not limited to: PCR, RT-qPCR, cloning, next-generation sequencing, flow cytometry, confocal microscopy, fine-scale dissections, yeast/bacterial cell culture, and traditional genetics.
 * Years of Linux (CentOS/RHEL) system administration experience (pretty good with Ubuntu too!).
 * Award-winning presentation, teaching, and communication skills. 
 
