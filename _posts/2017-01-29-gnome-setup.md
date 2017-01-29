@@ -2,10 +2,9 @@
 title: Setting up Linux for the office
 ---
 
-So, you want to use Linux on your computer at work. 
-I won't try to convince you to use it if you're not already convinced. 
-Problem is, you can't afford to lose the ability to do anything. 
-After all, what's the point of using Linux if it can't send emails or edit documents?
+So, you want to use Linux on your computer at work
+(I won't try to convince you to use it if you're not already convinced). 
+Your boss has given you one condition:
 You absolutely *must* have the ability to do the same stuff as everyone else in your office.
 And it needs to be easy. 
 
@@ -28,7 +27,7 @@ GNOME ships a consistent interface across all of its software,
 enjoys great compatibility with most office software/file formats, 
 and is very stable.
 
-# Which distribution do I use? 
+## Which distribution do I use? 
 
 There are a gajillion different variants of Linux out there. 
 Which one(s) do I choose?
@@ -45,7 +44,7 @@ Here are the biggest pros and cons of each:
 * Multimedia stuff doesn't need special setup
 * Better support for videogames and Steam
 
-** Fedora **
+**Fedora**
 
 * Includes more up-to-date software
 * Better compatibility with office software
@@ -70,7 +69,9 @@ After setting up your computer for the first time,
 make sure to look through the "Welcome to GNOME" tutorial that pops up the first time you login.
 It's actually extremely informative and useful.
 
-# Setting up home directory encryption
+------------------------------------
+
+## Setting up home directory encryption
 
 Does your computer have important data on it that could be potentially damaging if it was stolen?
 If the answer to either question is yes, you need to setup disk encryption. 
@@ -88,14 +89,14 @@ The reason for choosing home directory encryption over full disk encryption
 is that it protects all of your important data (everything in the `/home` directory) 
 without sacrificing computer performance.
 
-## The easy way
+### The easy way
 
 While installing Ubuntu GNOME, select the option that says "Encrypt my home directory". You're all done (that was easy!)!
 
 If you've already installed your OS or are using Fedora 
 (which only gives the option for full-disk encryption), see below.
 
-## The hard way
+### The hard way
 
 If you haven't already, create a root password so that you can log in as the root user.
 To do this open a terminal and enter the following commands.
@@ -123,8 +124,10 @@ ecryptfs-insert-wrapped-passphrase-into-keyring ~/.ecryptfs/wrapped-passphrase
 
 All done! 
 You can now log out and log in as that user and your data under the `/home` directory will be encrypted.
+ 
+-----------------------------------
 
-# A couple quality-of-life fixes
+## Some quality-of-life improvements
 
 Everything in this section can be enabled, disabled, 
 and customized using the GNOME tweak tool (`apt` or `dnf` install `gnome-tweak-tool`).
@@ -136,9 +139,7 @@ Search for and install the following extensions:
 
 [Topicons Plus](https://extensions.gnome.org/extension/1031/topicons/) - Moves software tray icons to be with your system tray icons in the top right of your screen.
 
-## Customize the user interface
-
-You can install new icons or shell themes to change the way your user interface looks.
+You can also install new icons or shell themes to change the way your user interface looks.
 I recommend checking out the following:
 
 * [Numix Circle icons](https://github.com/numixproject/numix-icon-theme-circle) - [Picture](http://me4oslav.deviantart.com/art/Numix-Circle-Linux-Desktop-Icon-Theme-414741466)
@@ -149,7 +150,7 @@ I recommend checking out the following:
 Pick and choose what you like, but these can make GNOME look even better than it already does 
 (if you are unhappy with the default theme).
 
-# Setup your web browser
+## Setup your web browser
 
 There's nothing special about setting up a web browser on Linux, but here are a couple tips:
 
@@ -157,6 +158,6 @@ There's nothing special about setting up a web browser on Linux, but here are a 
 * Opera works the best if you have a touchscreen (like on a laptop).
 * You can install uBlock Origin to get rid of popups and ads.
 
-# Setting up online accounts and email
+## Setting up online accounts and email
 
 
