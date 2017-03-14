@@ -113,7 +113,7 @@
 
 #container {
 	margin:0 auto;
-	max-width: 730px;
+	max-width: 1024px;
 	padding: 0 1.5rem;
 }
 
@@ -200,15 +200,16 @@ img[title="Emerald"] {
   }
 
 code {
-	font-size: 12px;
+	font-size: 15px;
 	padding: 1px 3px;
 	border-radius: 3px;
 	color: $code-fg-color;
 	background-color: $code-bg-color;
 }
 
+// inline code
 code.highlighter-rouge {
-	color: darken($code-fg-color, 50%);
+	color: #048A42;
 	background-color: transparent;
 }
 
