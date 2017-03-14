@@ -3,8 +3,8 @@
  * https://github.com/mojombo/tpw/blob/master/css/syntax.css
  */
 
-// .highlight  { background-color: #FFF; }
-.lineno { color: darken($background-color, 25%); margin-right: 1em; }
+.highlight  { background-color: $code-bg-color; }
+.lineno { color: darken($code-bg-color, 50%); margin-right: 1em; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
@@ -33,7 +33,7 @@
 .highlight .m { color: #009999 } /* Literal.Number */
 .highlight .s { color: #d14 } /* Literal.String */
 .highlight .na { color: #008080 } /* Name.Attribute */
-.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nb { color: $code-fg-color } /* Name.Builtin */
 .highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
 .highlight .no { color: #008080 } /* Name.Constant */
 .highlight .ni { color: #800080 } /* Name.Entity */

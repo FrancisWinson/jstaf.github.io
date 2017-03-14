@@ -200,8 +200,22 @@ img[title="Emerald"] {
   }
 
 code {
-  color: lighten($text-color, 35%);
-  background-color: lighten($background-color, 35%);
+	font-size: 12px;
+	padding: 1px 3px;
+	border-radius: 3px;
+	color: $code-fg-color;
+	background-color: $code-bg-color;
+}
+
+code.highlighter-rouge {
+	color: darken($code-fg-color, 50%);
+	background-color: transparent;
+}
+
+//controls code box formatting
+figure.highlight {
+	padding: 1px 10px;
+	border-radius: 5px;
 }
 
 /* Set the vertical rhythm (and padding-left) for lists inside post content */

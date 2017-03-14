@@ -22,13 +22,18 @@ $main-color: #008A3C;
 $background-color: #FDFDFD;
 $text-color: #222222;
 
+/* code color */
+$code-fg-color: #EBDBB2;
+// $code-bg-color: #282828; //gruvbox dark
+$code-bg-color: #32302F;
+
 /*- Base settings -*/
 
 html {
 	background-color: $background-color;
-	font-size: 14px;
+	font-size: 12px;
 	@media (min-width: 1024px) {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	line-height: 1.5;
 	color: $text-color;
